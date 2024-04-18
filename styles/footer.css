@@ -1,0 +1,70 @@
+/*
+/ Подвал
+/ --------------------------------------
+/ 28.02.22
+*/
+
+/* Настройка Подвала */
+
+footer {
+  background: #29282e;
+}
+
+footer > .container > .container__row > .nebo {
+	width: 1024px;
+	height: 500px;
+	object-position: center;
+	margin: auto;
+}
+
+footer > .container > .textinfooter {
+	color: #eee;
+	text-align: center;
+	max-width: 2000px;
+}
+
+footer > .container > .textinfooter h1 {
+	font-size: 40px;
+}
+
+footer > .container > .container__content a {
+	margin: 20px;
+}
+
+.button2 {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	text-decoration: none;
+	border-radius: 100%;
+	background: #444;
+}
+
+.button2:hover {
+	background: #eee;
+}
+
+footer > .container > .container__content {
+	text-align: center;
+}
+
+.talk {
+	background: #ff4500;
+	text-align: center;
+	padding-top: 40px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.talk > span {	
+	color: #eee;
+}
+
+.copyright {
+	text-align: center;
+	color: #77767c;
+}
+
+.copyright span {
+	margin-right: 80px;
+}

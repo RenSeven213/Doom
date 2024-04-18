@@ -1,0 +1,71 @@
+/*
+/ Основные настройки шапки сайта
+/ ---------------
+/ 21.01.22
+*/
+
+header > img {
+	width: 100%;
+	height: 600px;
+	object-fit: cover;
+	object-position: 50% 30%;
+	position: absolute;
+	filter: brightness(50%);
+	z-index: -5;
+}
+
+.slogan {
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+
+.slogan > i {
+	color: #ff6633;
+}
+
+.slogan > span {
+	margin: 0 0 0 10px;
+	color: #eee; 
+	padding: 0;
+}
+.container__row > h1 {
+	margin: 140px 0 0 0;
+	font-weight: 300;
+	color: #eee;
+}
+.container__row > p {
+	color: #eee;
+}
+
+.container > p {
+	color: #eee;
+}
+
+.ghost-button-full-color {
+  display: inline-block;
+  width: 150px;
+  height: 50px; 
+  padding: 8px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+  margin: 20px 0 0 0;
+}
+.ghost-button-full-color:hover,
+.ghost-button-full-color:active {
+  cursor: pointer;
+  background-color: #ff6633;
+  border-color: #ff6633;
+  color: #fff;
+  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+}
